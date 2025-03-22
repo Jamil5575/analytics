@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Analytics Tool</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">XEE-BLADE</div>
+    <nav>
+      <a href="https://www.tiktok.com/@aiautomation123">TikTok</a>
+      <a href="https://www.instagram.com/futurewithai23/">Instagram</a>
+      <a href="https://x.com/Muhamma81074642">Twitter</a>
+    </nav>
+  </header>
+
+  <!-- Ad Space - Top Banner -->
+  <div class="ad-banner">
+    <p>Ad Space (728x90)</p>
+  </div>
+
+  <main>
+    <section class="banner">
+      <h1>YouTube Analytics</h1>
+      <p>Get detailed insights into any YouTube channel.</p>
+      <div class="search-box">
+        <input type="text" id="channelInput" placeholder="Enter YouTube Channel Name or URL">
+        <button id="searchButton">See Analytics</button>
+      </div>
+    </section>
+
+    <!-- Ad Space - Medium Rectangle -->
+    <div class="ad-rectangle">
+      <p>Ad Space (300x250)</p>
+    </div>
+
+    <section class="analytics">
+      <h2>Channel Analytics</h2>
+      <div class="grid-container" id="analyticsGrid"></div>
+    </section>
+
+    <!-- Ad Space - Large Rectangle -->
+    <div class="ad-large-rectangle">
+      <p>Ad Space (336x280)</p>
+    </div>
+
+    <section class="charts">
+      <h2>Data Visualization</h2>
+      <div class="grid-container">
+        <canvas id="subscriberChart"></canvas>
+        <canvas id="videoChart"></canvas>
+        <canvas id="viewsChart"></canvas>
+        <canvas id="revenueChart"></canvas>
+        <canvas id="engagementChart"></canvas>
+        <canvas id="demographicsChart"></canvas>
+      </div>
+    </section>
+  </main>
+
+  <!-- Ad Space - Bottom Banner -->
+  <div class="ad-banner">
+    <p>Ad Space (728x90)</p>
+  </div>
+
+  <footer>
+    <a href="terms.html">Terms of Service</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="contact.html">Contact</a>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
